@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image:url("https://wallpaperaccess.com/full/2637771.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.card-container{
+  text-align: center;
+  box-shadow: 2px;
+  background-image:url("");
+  background-size: cover;
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff transparent;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  margin:90px;
+  color:rgb(255, 255, 255);
+  font-weight: bolder;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+}
+.form{
+color:black;
+font-style: italic;
+padding:3px;
+margin-right:2px;
+text-align: center;
+}
+.button{
+    height: 45px;
+    margin: 35px 0;
+  }
+  .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: linear-gradient(135deg, brown,blue);
+  }
+  .button input:hover{
+  background: linear-gradient(-135deg, #2b6e9b, #75129c);
+  }
+  input{
+    border-radius: 7px;
+  }
+  
